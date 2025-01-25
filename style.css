@@ -1,0 +1,30 @@
+.cardsContainer{
+  display: flex;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  
+}
+.card > img{
+  width: 23vw;
+  height: 400px;
+}
+
+.rate{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: large;
+}
+
+.cartBtn{
+  border: none;
+  background-color: red;
+  color: aliceblue;
+  padding: 1vh 2vw;
+  border-radius: 20px;
+  cursor: pointer;
+}
