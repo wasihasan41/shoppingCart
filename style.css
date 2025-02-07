@@ -1,30 +1,70 @@
-.cardsContainer{
+.cardsContainer {
   display: flex;
 }
 
-.card{
+.card {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 5px;
-  
+
 }
-.card > img{
+
+.card>img {
   width: 23vw;
   height: 400px;
 }
 
-.rate{
+.rate {
   margin-top: 3vh;
   margin-bottom: 3vh;
   font-size: large;
+  font-size: 20px;
+  font-weight: 600;
+  color: brown;
+  text-decoration: overline;
 }
 
-.cartBtn{
+.cartBtn {
   border: none;
   background-color: red;
   color: aliceblue;
   padding: 1vh 2vw;
   border-radius: 20px;
   cursor: pointer;
+}
+
+.counterBtn {
+  display: flex;
+  /* height: fit-content; */
+  height: 2rem;
+}
+
+.minBtn {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: aliceblue;
+  height: 2rem;
+  padding: 0 12px 6px 12px;
+  font-size: 20px;
+  font-weight: 900;
+
+}
+
+.addBtn {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: aliceblue;
+  height: 2rem;
+  padding: 0 12px 0 12px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.counter {
+  margin: auto 12px auto 12px;
+  font-size: 20px;
+  font-weight: 600;
 }
